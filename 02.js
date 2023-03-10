@@ -12,6 +12,8 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+  var stringOrdenada = strings.sort(( a, b) => a.length - b.length); 
+  return stringOrdenada[stringOrdenada.length - 1]
 }
 
 // No modifiques nada debajo de esta linea //
